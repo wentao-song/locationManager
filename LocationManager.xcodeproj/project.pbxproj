@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		97E49ABE22EF367E002C12BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E49ABD22EF367E002C12BC /* AppDelegate.m */; };
-		97E49AC122EF367E002C12BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E49AC022EF367E002C12BC /* ViewController.m */; };
-		97E49AC422EF367E002C12BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E49AC222EF367E002C12BC /* Main.storyboard */; };
-		97E49AC622EF367F002C12BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E49AC522EF367F002C12BC /* Assets.xcassets */; };
-		97E49AC922EF367F002C12BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E49AC722EF367F002C12BC /* LaunchScreen.storyboard */; };
-		97E49ACC22EF367F002C12BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E49ACB22EF367F002C12BC /* main.m */; };
+		97E49AE022EF37AA002C12BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E49ADF22EF37AA002C12BC /* AppDelegate.m */; };
+		97E49AE322EF37AA002C12BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E49AE222EF37AA002C12BC /* ViewController.m */; };
+		97E49AE622EF37AA002C12BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E49AE422EF37AA002C12BC /* Main.storyboard */; };
+		97E49AE822EF37AB002C12BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E49AE722EF37AB002C12BC /* Assets.xcassets */; };
+		97E49AEB22EF37AB002C12BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E49AE922EF37AB002C12BC /* LaunchScreen.storyboard */; };
+		97E49AEE22EF37AB002C12BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E49AED22EF37AB002C12BC /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		97E49AB922EF367E002C12BC /* PayManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		97E49ABC22EF367E002C12BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		97E49ABD22EF367E002C12BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		97E49ABF22EF367E002C12BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		97E49AC022EF367E002C12BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		97E49AC322EF367E002C12BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97E49AC522EF367F002C12BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		97E49AC822EF367F002C12BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97E49ACA22EF367F002C12BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97E49ACB22EF367F002C12BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97E49ADB22EF37AA002C12BC /* LocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E49ADE22EF37AA002C12BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97E49ADF22EF37AA002C12BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97E49AE122EF37AA002C12BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97E49AE222EF37AA002C12BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97E49AE522EF37AA002C12BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97E49AE722EF37AB002C12BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97E49AEA22EF37AB002C12BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97E49AEC22EF37AB002C12BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E49AED22EF37AB002C12BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		97E49AB622EF367E002C12BC /* Frameworks */ = {
+		97E49AD822EF37AA002C12BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		97E49AB022EF367D002C12BC = {
+		97E49AD222EF37AA002C12BC = {
 			isa = PBXGroup;
 			children = (
-				97E49ABB22EF367E002C12BC /* PayManager */,
-				97E49ABA22EF367E002C12BC /* Products */,
+				97E49ADD22EF37AA002C12BC /* LocationManager */,
+				97E49ADC22EF37AA002C12BC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		97E49ABA22EF367E002C12BC /* Products */ = {
+		97E49ADC22EF37AA002C12BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97E49AB922EF367E002C12BC /* PayManager.app */,
+				97E49ADB22EF37AA002C12BC /* LocationManager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		97E49ABB22EF367E002C12BC /* PayManager */ = {
+		97E49ADD22EF37AA002C12BC /* LocationManager */ = {
 			isa = PBXGroup;
 			children = (
-				97E49ABC22EF367E002C12BC /* AppDelegate.h */,
-				97E49ABD22EF367E002C12BC /* AppDelegate.m */,
-				97E49ABF22EF367E002C12BC /* ViewController.h */,
-				97E49AC022EF367E002C12BC /* ViewController.m */,
-				97E49AC222EF367E002C12BC /* Main.storyboard */,
-				97E49AC522EF367F002C12BC /* Assets.xcassets */,
-				97E49AC722EF367F002C12BC /* LaunchScreen.storyboard */,
-				97E49ACA22EF367F002C12BC /* Info.plist */,
-				97E49ACB22EF367F002C12BC /* main.m */,
+				97E49ADE22EF37AA002C12BC /* AppDelegate.h */,
+				97E49ADF22EF37AA002C12BC /* AppDelegate.m */,
+				97E49AE122EF37AA002C12BC /* ViewController.h */,
+				97E49AE222EF37AA002C12BC /* ViewController.m */,
+				97E49AE422EF37AA002C12BC /* Main.storyboard */,
+				97E49AE722EF37AB002C12BC /* Assets.xcassets */,
+				97E49AE922EF37AB002C12BC /* LaunchScreen.storyboard */,
+				97E49AEC22EF37AB002C12BC /* Info.plist */,
+				97E49AED22EF37AB002C12BC /* main.m */,
 			);
-			path = PayManager;
+			path = LocationManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97E49AB822EF367E002C12BC /* PayManager */ = {
+		97E49ADA22EF37AA002C12BC /* LocationManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97E49ACF22EF367F002C12BC /* Build configuration list for PBXNativeTarget "PayManager" */;
+			buildConfigurationList = 97E49AF122EF37AB002C12BC /* Build configuration list for PBXNativeTarget "LocationManager" */;
 			buildPhases = (
-				97E49AB522EF367E002C12BC /* Sources */,
-				97E49AB622EF367E002C12BC /* Frameworks */,
-				97E49AB722EF367E002C12BC /* Resources */,
+				97E49AD722EF37AA002C12BC /* Sources */,
+				97E49AD822EF37AA002C12BC /* Frameworks */,
+				97E49AD922EF37AA002C12BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PayManager;
-			productName = PayManager;
-			productReference = 97E49AB922EF367E002C12BC /* PayManager.app */;
+			name = LocationManager;
+			productName = LocationManager;
+			productReference = 97E49ADB22EF37AA002C12BC /* LocationManager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		97E49AB122EF367D002C12BC /* Project object */ = {
+		97E49AD322EF37AA002C12BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = songwentao;
 				TargetAttributes = {
-					97E49AB822EF367E002C12BC = {
+					97E49ADA22EF37AA002C12BC = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 97E49AB422EF367D002C12BC /* Build configuration list for PBXProject "PayManager" */;
+			buildConfigurationList = 97E49AD622EF37AA002C12BC /* Build configuration list for PBXProject "LocationManager" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,55 +113,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 97E49AB022EF367D002C12BC;
-			productRefGroup = 97E49ABA22EF367E002C12BC /* Products */;
+			mainGroup = 97E49AD222EF37AA002C12BC;
+			productRefGroup = 97E49ADC22EF37AA002C12BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97E49AB822EF367E002C12BC /* PayManager */,
+				97E49ADA22EF37AA002C12BC /* LocationManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		97E49AB722EF367E002C12BC /* Resources */ = {
+		97E49AD922EF37AA002C12BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97E49AC922EF367F002C12BC /* LaunchScreen.storyboard in Resources */,
-				97E49AC622EF367F002C12BC /* Assets.xcassets in Resources */,
-				97E49AC422EF367E002C12BC /* Main.storyboard in Resources */,
+				97E49AEB22EF37AB002C12BC /* LaunchScreen.storyboard in Resources */,
+				97E49AE822EF37AB002C12BC /* Assets.xcassets in Resources */,
+				97E49AE622EF37AA002C12BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		97E49AB522EF367E002C12BC /* Sources */ = {
+		97E49AD722EF37AA002C12BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97E49AC122EF367E002C12BC /* ViewController.m in Sources */,
-				97E49ACC22EF367F002C12BC /* main.m in Sources */,
-				97E49ABE22EF367E002C12BC /* AppDelegate.m in Sources */,
+				97E49AE322EF37AA002C12BC /* ViewController.m in Sources */,
+				97E49AEE22EF37AB002C12BC /* main.m in Sources */,
+				97E49AE022EF37AA002C12BC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		97E49AC222EF367E002C12BC /* Main.storyboard */ = {
+		97E49AE422EF37AA002C12BC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				97E49AC322EF367E002C12BC /* Base */,
+				97E49AE522EF37AA002C12BC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		97E49AC722EF367F002C12BC /* LaunchScreen.storyboard */ = {
+		97E49AE922EF37AB002C12BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				97E49AC822EF367F002C12BC /* Base */,
+				97E49AEA22EF37AB002C12BC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		97E49ACD22EF367F002C12BC /* Debug */ = {
+		97E49AEF22EF37AB002C12BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		97E49ACE22EF367F002C12BC /* Release */ = {
+		97E49AF022EF37AB002C12BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,35 +281,35 @@
 			};
 			name = Release;
 		};
-		97E49AD022EF367F002C12BC /* Debug */ = {
+		97E49AF222EF37AB002C12BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2RMKX34R4M;
-				INFOPLIST_FILE = PayManager/Info.plist;
+				INFOPLIST_FILE = LocationManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tao.tt.PayManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.tt.LocationManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		97E49AD122EF367F002C12BC /* Release */ = {
+		97E49AF322EF37AB002C12BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2RMKX34R4M;
-				INFOPLIST_FILE = PayManager/Info.plist;
+				INFOPLIST_FILE = LocationManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tao.tt.PayManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.tt.LocationManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97E49AB422EF367D002C12BC /* Build configuration list for PBXProject "PayManager" */ = {
+		97E49AD622EF37AA002C12BC /* Build configuration list for PBXProject "LocationManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97E49ACD22EF367F002C12BC /* Debug */,
-				97E49ACE22EF367F002C12BC /* Release */,
+				97E49AEF22EF37AB002C12BC /* Debug */,
+				97E49AF022EF37AB002C12BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97E49ACF22EF367F002C12BC /* Build configuration list for PBXNativeTarget "PayManager" */ = {
+		97E49AF122EF37AB002C12BC /* Build configuration list for PBXNativeTarget "LocationManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97E49AD022EF367F002C12BC /* Debug */,
-				97E49AD122EF367F002C12BC /* Release */,
+				97E49AF222EF37AB002C12BC /* Debug */,
+				97E49AF322EF37AB002C12BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 97E49AB122EF367D002C12BC /* Project object */;
+	rootObject = 97E49AD322EF37AA002C12BC /* Project object */;
 }

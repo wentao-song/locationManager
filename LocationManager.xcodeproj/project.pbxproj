@@ -13,6 +13,7 @@
 		97E49AE822EF37AB002C12BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E49AE722EF37AB002C12BC /* Assets.xcassets */; };
 		97E49AEB22EF37AB002C12BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E49AE922EF37AB002C12BC /* LaunchScreen.storyboard */; };
 		97E49AEE22EF37AB002C12BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E49AED22EF37AB002C12BC /* main.m */; };
+		AAF690F322EFDA5800369705 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF690F222EFDA5800369705 /* LocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		97E49AEA22EF37AB002C12BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97E49AEC22EF37AB002C12BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97E49AED22EF37AB002C12BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAF690F122EFDA5700369705 /* LocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		AAF690F222EFDA5800369705 /* LocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				97E49ADF22EF37AA002C12BC /* AppDelegate.m */,
 				97E49AE122EF37AA002C12BC /* ViewController.h */,
 				97E49AE222EF37AA002C12BC /* ViewController.m */,
+				AAF690F122EFDA5700369705 /* LocationManager.h */,
+				AAF690F222EFDA5800369705 /* LocationManager.m */,
 				97E49AE422EF37AA002C12BC /* Main.storyboard */,
 				97E49AE722EF37AB002C12BC /* Assets.xcassets */,
 				97E49AE922EF37AB002C12BC /* LaunchScreen.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF690F322EFDA5800369705 /* LocationManager.m in Sources */,
 				97E49AE322EF37AA002C12BC /* ViewController.m in Sources */,
 				97E49AEE22EF37AB002C12BC /* main.m in Sources */,
 				97E49AE022EF37AA002C12BC /* AppDelegate.m in Sources */,

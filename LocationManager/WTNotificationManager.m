@@ -8,7 +8,7 @@
 
 #import "WTNotificationManager.h"
 #import <UserNotifications/UserNotifications.h>
-
+#import <UIKit/UIKit.h>
 @interface WTNotificationManager()<UNUserNotificationCenterDelegate>
 
 
@@ -35,7 +35,12 @@
     center.delegate = self;
     [center requestAuthorizationWithOptions:UNAuthorizationOptionBadge |UNAuthorizationOptionSound completionHandler:^(BOOL granted, NSError * _Nullable error) {
         if (granted == true) {
-            //允许推送
+            //允许推送 设置本地或远程推送
+           // [self locaNotification];//本地推送
+            //注册远程推送
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [[UIApplication sharedApplication]registerForRemoteNotifications];
+            });
         }
     }];
 }
@@ -50,7 +55,7 @@
     //本地推送有三种
     //UNCalendarNotificationTrigger（本地通知） 一定日期之后，重复或者不重复推送通知
     //UNLocationNotificationTrigger （本地通知）地理位置的一种通知，使用这个通知，你需要导入#import<CoreLocation/CoreLocation.h>这个系统类库
-    //生成推送发生条件，这里是时间间隔为条件
+    //生成推送发生条件，这里是时间间隔为条件,当时间小于60秒的时候m，不能设为YES
     UNTimeIntervalNotificationTrigger *trigger = [UNTimeIntervalNotificationTrigger triggerWithTimeInterval:30 repeats:NO];
     //生成推送请求
     UNNotificationRequest *request = [UNNotificationRequest requestWithIdentifier:@"locationPush" content:content trigger:trigger];
